@@ -1,0 +1,30 @@
+{
+  "name": "native_shared_preferences",
+  "version": "1.0.0",
+  "summary": "Shared preferences for migration of native app",
+  "description": "Shared preferences for migration of native app",
+  "homepage": "https://github.com/yeniel/native_shared_preferences",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "y3ni3l@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+  }
+}

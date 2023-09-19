@@ -1,22 +1,167 @@
 PODS:
+  - device_info (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
+  - flutter_share (0.0.1):
+    - Flutter
   - FlutterPluginRegistrant (0.0.1):
+    - device_info
+    - Flutter
+    - flutter_share
+    - geocoding
+    - geolocator_apple
+    - google_maps_flutter_ios
+    - in_app_review
+    - location
+    - native_shared_preferences
+    - package_info
+    - path_provider_foundation
+    - permission_handler_apple
+    - share_plus
+    - shared_preferences_foundation
+    - sms_autofill
+    - sqflite
+    - url_launcher_ios
+    - video_player_avfoundation
+    - webview_flutter_wkwebview
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - geocoding (1.0.5):
+    - Flutter
+  - geolocator_apple (1.2.0):
+    - Flutter
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - GoogleMaps (< 8.0)
+  - GoogleMaps (7.4.0):
+    - GoogleMaps/Maps (= 7.4.0)
+  - GoogleMaps/Base (7.4.0)
+  - GoogleMaps/Maps (7.4.0):
+    - GoogleMaps/Base
+  - in_app_review (0.2.0):
+    - Flutter
+  - location (0.0.1):
+    - Flutter
+  - native_shared_preferences (1.0.0):
+    - Flutter
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - share_plus (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sms_autofill (0.0.1):
+    - Flutter
+  - sqflite (0.0.3):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
     - Flutter
 
 DEPENDENCIES:
+  - device_info (from `../my_flutter/.ios/.symlinks/plugins/device_info/ios`)
   - Flutter (from `../my_flutter/.ios/Flutter`)
+  - flutter_share (from `../my_flutter/.ios/.symlinks/plugins/flutter_share/ios`)
   - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - geocoding (from `../my_flutter/.ios/.symlinks/plugins/geocoding/ios`)
+  - geolocator_apple (from `../my_flutter/.ios/.symlinks/plugins/geolocator_apple/ios`)
+  - google_maps_flutter_ios (from `../my_flutter/.ios/.symlinks/plugins/google_maps_flutter_ios/ios`)
+  - in_app_review (from `../my_flutter/.ios/.symlinks/plugins/in_app_review/ios`)
+  - location (from `../my_flutter/.ios/.symlinks/plugins/location/ios`)
+  - native_shared_preferences (from `../my_flutter/.ios/.symlinks/plugins/native_shared_preferences/ios`)
+  - package_info (from `../my_flutter/.ios/.symlinks/plugins/package_info/ios`)
+  - path_provider_foundation (from `../my_flutter/.ios/.symlinks/plugins/path_provider_foundation/ios`)
+  - permission_handler_apple (from `../my_flutter/.ios/.symlinks/plugins/permission_handler_apple/ios`)
+  - share_plus (from `../my_flutter/.ios/.symlinks/plugins/share_plus/ios`)
+  - shared_preferences_foundation (from `../my_flutter/.ios/.symlinks/plugins/shared_preferences_foundation/ios`)
+  - sms_autofill (from `../my_flutter/.ios/.symlinks/plugins/sms_autofill/ios`)
+  - sqflite (from `../my_flutter/.ios/.symlinks/plugins/sqflite/ios`)
+  - url_launcher_ios (from `../my_flutter/.ios/.symlinks/plugins/url_launcher_ios/ios`)
+  - video_player_avfoundation (from `../my_flutter/.ios/.symlinks/plugins/video_player_avfoundation/ios`)
+  - webview_flutter_wkwebview (from `../my_flutter/.ios/.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - GoogleMaps
 
 EXTERNAL SOURCES:
+  device_info:
+    :path: "../my_flutter/.ios/.symlinks/plugins/device_info/ios"
   Flutter:
     :path: "../my_flutter/.ios/Flutter"
+  flutter_share:
+    :path: "../my_flutter/.ios/.symlinks/plugins/flutter_share/ios"
   FlutterPluginRegistrant:
     :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  geocoding:
+    :path: "../my_flutter/.ios/.symlinks/plugins/geocoding/ios"
+  geolocator_apple:
+    :path: "../my_flutter/.ios/.symlinks/plugins/geolocator_apple/ios"
+  google_maps_flutter_ios:
+    :path: "../my_flutter/.ios/.symlinks/plugins/google_maps_flutter_ios/ios"
+  in_app_review:
+    :path: "../my_flutter/.ios/.symlinks/plugins/in_app_review/ios"
+  location:
+    :path: "../my_flutter/.ios/.symlinks/plugins/location/ios"
+  native_shared_preferences:
+    :path: "../my_flutter/.ios/.symlinks/plugins/native_shared_preferences/ios"
+  package_info:
+    :path: "../my_flutter/.ios/.symlinks/plugins/package_info/ios"
+  path_provider_foundation:
+    :path: "../my_flutter/.ios/.symlinks/plugins/path_provider_foundation/ios"
+  permission_handler_apple:
+    :path: "../my_flutter/.ios/.symlinks/plugins/permission_handler_apple/ios"
+  share_plus:
+    :path: "../my_flutter/.ios/.symlinks/plugins/share_plus/ios"
+  shared_preferences_foundation:
+    :path: "../my_flutter/.ios/.symlinks/plugins/shared_preferences_foundation/ios"
+  sms_autofill:
+    :path: "../my_flutter/.ios/.symlinks/plugins/sms_autofill/ios"
+  sqflite:
+    :path: "../my_flutter/.ios/.symlinks/plugins/sqflite/ios"
+  url_launcher_ios:
+    :path: "../my_flutter/.ios/.symlinks/plugins/url_launcher_ios/ios"
+  video_player_avfoundation:
+    :path: "../my_flutter/.ios/.symlinks/plugins/video_player_avfoundation/ios"
+  webview_flutter_wkwebview:
+    :path: "../my_flutter/.ios/.symlinks/plugins/webview_flutter_wkwebview/ios"
 
 SPEC CHECKSUMS:
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  FlutterPluginRegistrant: 58acfb6cb31ee4ca14f920aba101815efda113ee
+  flutter_share: 4be0208963c60b537e6255ed2ce1faae61cd9ac2
+  FlutterPluginRegistrant: 324a3aa8e66d223b192ebf31adac7a636b7eeabe
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  geocoding: 32cfcdb16d38d907caaba65e2e42ad10d38bee58
+  geolocator_apple: cc556e6844d508c95df1e87e3ea6fa4e58c50401
+  google_maps_flutter_ios: abdac20d6ce8931f6ebc5f46616df241bfaa2cfd
+  GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
+  in_app_review: 318597b3a06c22bb46dc454d56828c85f444f99d
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  native_shared_preferences: 21a805f6149643c25a20a4f534692131faebadfe
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  share_plus: 056a1e8ac890df3e33cb503afffaf1e9b4fbae68
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+  sms_autofill: c461043483362c3f1709ee76eaae6eb570b31686
+  sqflite: 31f7eba61e3074736dff8807a9b41581e4f7f15a
+  url_launcher_ios: 08a3dfac5fb39e8759aeb0abbd5d9480f30fc8b4
+  video_player_avfoundation: 81e49bb3d9fb63dccf9fa0f6d877dc3ddbeac126
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
 
-PODFILE CHECKSUM: 81d6ee83889a62d9b93ac67f01a83b583dc4cd31
+PODFILE CHECKSUM: e7fdd563d35d5a19809db160e9aae4bba2bd4c6a
 
 COCOAPODS: 1.12.1

@@ -28,6 +28,60 @@
   "dependencies": {
     "Flutter": [
 
+    ],
+    "device_info": [
+
+    ],
+    "flutter_share": [
+
+    ],
+    "geocoding": [
+
+    ],
+    "geolocator_apple": [
+
+    ],
+    "google_maps_flutter_ios": [
+
+    ],
+    "in_app_review": [
+
+    ],
+    "location": [
+
+    ],
+    "native_shared_preferences": [
+
+    ],
+    "package_info": [
+
+    ],
+    "path_provider_foundation": [
+
+    ],
+    "permission_handler_apple": [
+
+    ],
+    "share_plus": [
+
+    ],
+    "shared_preferences_foundation": [
+
+    ],
+    "sms_autofill": [
+
+    ],
+    "sqflite": [
+
+    ],
+    "url_launcher_ios": [
+
+    ],
+    "video_player_avfoundation": [
+
+    ],
+    "webview_flutter_wkwebview": [
+
     ]
   }
 }
