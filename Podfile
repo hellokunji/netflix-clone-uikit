@@ -3,7 +3,7 @@ platform :ios, '16.4'
 use_frameworks!
 inhibit_all_warnings!
 
-flutter_application_path = '../my_flutter'
+flutter_application_path = '../../../work/parkplus/projects/b2c-app/parkplus_b2c_flutter'
 load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 
 workspace 'Netflix Clone'

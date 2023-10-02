@@ -17,7 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = MainTabBarViewController()
+        let flutterEngine = (UIApplication.shared.delegate as! AppDelegate).flutterEngine
+        window?.rootViewController = UINavigationController(rootViewController: MainViewController(engine: flutterEngine, nibName: nil, bundle: nil))
         window?.makeKeyAndVisible()
     }
 

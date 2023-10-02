@@ -177,8 +177,10 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/device_info/device_info.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/flutter_share/flutter_share.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/fluttertoast/fluttertoast.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/geocoding/geocoding.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/geolocator_apple/geolocator_apple.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/in_app_review/in_app_review.framework"
@@ -196,8 +198,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/device_info/device_info.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/flutter_share/flutter_share.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/fluttertoast/fluttertoast.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/geocoding/geocoding.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/geolocator_apple/geolocator_apple.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/in_app_review/in_app_review.framework"

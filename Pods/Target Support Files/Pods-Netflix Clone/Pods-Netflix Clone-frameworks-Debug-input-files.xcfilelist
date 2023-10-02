@@ -1,7 +1,9 @@
 ${PODS_ROOT}/Target Support Files/Pods-Netflix Clone/Pods-Netflix Clone-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/Toast/Toast.framework
 ${BUILT_PRODUCTS_DIR}/device_info/device_info.framework
 ${BUILT_PRODUCTS_DIR}/flutter_share/flutter_share.framework
+${BUILT_PRODUCTS_DIR}/fluttertoast/fluttertoast.framework
 ${BUILT_PRODUCTS_DIR}/geocoding/geocoding.framework
 ${BUILT_PRODUCTS_DIR}/geolocator_apple/geolocator_apple.framework
 ${BUILT_PRODUCTS_DIR}/in_app_review/in_app_review.framework
